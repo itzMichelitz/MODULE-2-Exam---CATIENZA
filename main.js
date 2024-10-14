@@ -1,7 +1,7 @@
 import * as THREE from 'three'
 
 const scene = new THREE.Scene();
-scene.background = new THREE.Color(0x1C1C1C);
+scene.background = new THREE.Color(0x0d0d0d);
 
 const renderer = new THREE.WebGLRenderer({ antialias: true });
 renderer.setSize(window.innerWidth, window.innerHeight);
